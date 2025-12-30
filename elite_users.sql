@@ -6,6 +6,6 @@ SELECT
     , SUM(CASE WHEN transaction_type = 'direct_depot' THEN 1 ELSE 0 end) AS DD_count
     , SUM(CASE WHEN transaction_type = 'purchase' THEN 1 ELSE 0 END) AS P_count
 FROM transactions
-	WHERE transaction_date >= CURRENT_DATE() - INTERVAL 30 DAY
+WHERE transaction_date >= CURRENT_DATE() - INTERVAL 30 DAY
 GROUP BY user_id
-	HAVING DD_count > 3 AND P_count >= 10;
+HAVING DD_count > 3 AND P_count >= 10;
