@@ -1,6 +1,5 @@
 -- Identify the elite users who drive the most value. 
--- Business Logic: Find all users who, in the last 30 days, 
--- have made at least 3 direct deposits and at least 10 purchases.
+-- Business Logic: Find all users who, in the last 30 days, have made at least 3 direct deposits and at least 10 purchases.
 SELECT
 	user_id
     , SUM(CASE WHEN transaction_type = 'direct_depot' THEN 1 ELSE 0 end) AS DD_count
