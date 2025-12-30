@@ -1,0 +1,1 @@
+-- Generate a report showing the total purchase volume aggregated by month, ordered chronologically, to help us identify seasonal spending trends.
