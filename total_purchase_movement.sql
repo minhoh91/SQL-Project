@@ -7,4 +7,5 @@ SELECT
   , COUNT(transaction_id) AS monthly_purchase_count
 FROM transactions
 WHERE transaction_type = 'purchase'
-GROUP BY 
+GROUP BY YEAR(transaction_date), MONTH(transaction_date)
+ORDER BY YEAR(transaction_date) ASC, MONTH(transaction_date) ASC;
