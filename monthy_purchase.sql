@@ -18,6 +18,8 @@ FROM transactions_2
   
 SELECT
   user_id
+  , previous_transaction_period AS month_1
+  , transaction_period AS month_2
 FROM transactions_3
 WHERE PERIOD_DIFF(transaction_period, previous_transaction_period) = 1
 ;
