@@ -1,5 +1,5 @@
-users
-user_id (PK): Unique identifier for each customer.
+users  
+  user_id (PK): Unique identifier for each customer.
   signup_date: The date the user joined the platform. 
   status: Current account standing (e.g., Active, Inactive, Pending).
   sales_region: Geographic location (e.g., North, South, East, West).
