@@ -39,6 +39,12 @@ Project C: Advanced Retention & Lifetime Value
 
 3: Running Total of Revenue per User: Uses Window Functions to calculate a chronological cumulative spend for every user, allowing the business to identify "Whale" customers as their value grows over time
 
+Project D: Merchant Ecosystem & Risk Strategy 1: The "Luxury vs. Necessity" Persona Analysis: Joins all three tables to identify high-spend luxury shoppers within specific regions, helping marketing define high-affinity consumer segments.  
+
+2: Merchant Risk Exposure Report: Flags high-risk merchants by joining transaction volume with risk levels to identify vendors with suspicious velocity or high-value transaction averages.
+
+3: Category Diversification Metric: Uses CTEs and Cross Joins to calculate the variety of merchant categories a user shops in compared to the platform average, measuring user wallet share and engagement.
+
 Technical Skills & SQL Proficiencies  
 Advanced Date Manipulation: Used EXTRACT(YEAR_MONTH), DATEDIFF, and PERIOD_DIFF to handle complex time-series data and year-over-year transitions.
 
