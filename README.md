@@ -45,15 +45,16 @@ Project D: Merchant Ecosystem & Risk Strategy 1: The "Luxury vs. Necessity" Pers
 
 3: Category Diversification Metric: Uses CTEs and Cross Joins to calculate the variety of merchant categories a user shops in compared to the platform average, measuring user wallet share and engagement.
 
-Technical Skills & SQL Proficiencies  
-Advanced Date Manipulation: Used EXTRACT(YEAR_MONTH), DATEDIFF, and PERIOD_DIFF to handle complex time-series data and year-over-year transitions.
+Technical Skills & SQL Proficiencies Advanced Date Manipulation: Used EXTRACT(YEAR_MONTH), DATEDIFF, and PERIOD_DIFF to handle complex time-series data and year-over-year transitions.
 
-Window Functions: Implemented LAG() for month-over-month retention analysis and SUM() OVER for calculating lifetime running totals (LTV).
+Window Functions & Benchmarking: Implemented LAG() for retention analysis, SUM() OVER for lifetime totals (LTV), and CROSS JOINs to compare individual user metrics against platform-wide averages.
 
-Analytical CTEs (Common Table Expressions): Leveraged multiple CTEs to layer logic, such as normalizing transaction dates before performing retention math.
+Multi-Entity Data Integration: Expert at performing complex three-way joins across User, Transaction, and Merchant dimensions to uncover cross-functional business insights.
 
-Funnel & Retention Logic: Built queries to measure "Time-to-Value" (activation) and "Sticky" user behavior (consecutive month retention).
+Analytical CTEs (Common Table Expressions): Leveraged multiple CTEs to layer logic, such as normalizing transaction dates and isolating sub-populations before performing final aggregations.
 
-Data Aggregation & Filtering: Proficiency in GROUP BY, HAVING, and complex CASE WHEN statements for conditional metrics (Activation Rates).
+Risk & Funnel Logic: Built queries to measure "Time-to-Value" (activation) and "Risk Audit Status" by flagging high-velocity behavior and high-risk merchant profiles.
+
+Data Aggregation & Filtering: Proficiency in GROUP BY, HAVING, and complex CASE WHEN statements for conditional metrics and persona categorization.
 
 Performance Optimization: Utilized DISTINCT and JOIN optimization to ensure queries run efficiently on high-volume transaction datasets.
