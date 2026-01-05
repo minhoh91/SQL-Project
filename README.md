@@ -45,7 +45,8 @@ Project D: Merchant Ecosystem & Risk Strategy 1: The "Luxury vs. Necessity" Pers
 
 3: Category Diversification Metric: Uses CTEs and Cross Joins to calculate the variety of merchant categories a user shops in compared to the platform average, measuring user wallet share and engagement.
 
-Technical Skills & SQL Proficiencies Advanced Date Manipulation: Used EXTRACT(YEAR_MONTH), DATEDIFF, and PERIOD_DIFF to handle complex time-series data and year-over-year transitions.
+Technical Skills & SQL Proficiencies  
+Advanced Date Manipulation: Used EXTRACT(YEAR_MONTH), DATEDIFF, and PERIOD_DIFF to handle complex time-series data and year-over-year transitions.
 
 Window Functions & Benchmarking: Implemented LAG() for retention analysis, SUM() OVER for lifetime totals (LTV), and CROSS JOINs to compare individual user metrics against platform-wide averages.
 
